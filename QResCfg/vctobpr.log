@@ -1,0 +1,13 @@
+Reading configurations from ..\QResCfg\QResCfg.dsp
+Finished reading configurations from ..\QResCfg\QResCfg.dsp
+ Converting C:\Projects\qres-opensource\qres\qres.dsw
+Generating project group file C:\Projects\qres-opensource\qres\qres.bpg
+qres.bpg generated
+Done converting workspace file C:\Projects\qres-opensource\qres\qres.dsw
+ Converting ..\QResCfg\QResCfg.dsp
+Using configuration "QResCfg - Win32 Release"
+Warning: no conversion for compiler option: /FR
+Warning: no conversion for compiler option: /FD
+Warning: no conversion for linker option: /NODEFAULTLIB:"LIBC"
+Warning: skipping unknown linker option: /IGNORE:4089
+Generating QResCfg.bpr

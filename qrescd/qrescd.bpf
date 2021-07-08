@@ -1,0 +1,5 @@
+USEUNIT(".\qrescd.c");
+USERC(".\qrescd.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

@@ -1,0 +1,7 @@
+; ltxtest.def : Declares the module parameters for the application.
+LIBRARY   QRES32
+HEAPSIZE  1024
+EXPORTS
+  InstallQResFilter
+  QResMsgWnd
+  QRCheck

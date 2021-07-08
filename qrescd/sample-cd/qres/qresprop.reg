@@ -1,0 +1,28 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\.lnk]
+   @="lnkfile"
+[HKEY_CLASSES_ROOT\CLSID\{6fe20680-7558-11d0-b7f2-444553540000}]
+   @="QRes Property Sheet"
+[HKEY_CLASSES_ROOT\CLSID\{6fe20680-7558-11d0-b7f2-444553540000}\InProcServer32]
+   @="qresprop.dll"
+     "ThreadingModel"="Apartment"
+
+; Used for lnkfile
+[HKEY_CLASSES_ROOT\lnkfile\shellex\PropertySheetHandlers]
+   @="QResPage"
+[HKEY_CLASSES_ROOT\lnkfile\shellex\PropertySheetHandlers\QResPage]
+   @="{6fe20680-7558-11d0-b7f2-444553540000}"
+
+; Following key must be set for NT 4.0 by administrator.
+; It doesn't hurt to also set it for Windows 95
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved]
+   {6fe20680-7558-11d0-b7f2-444553540000}="QRes Property Sheet"
+
+; This makes quickres switch without restarting on Windows 95
+[HKEY_USERS\.Default\Software\Microsoft\Windows\CurrentVersion\Controls Folder]
+[HKEY_USERS\.Default\Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display]
+"DynaColorChange"="1"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Controls Folder]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display]
+"DynaColorChange"="1"

@@ -1,0 +1,11 @@
+Reading configurations from ..\qreslib\qreslib.dsp
+Finished reading configurations from ..\qreslib\qreslib.dsp
+ Converting C:\Projects\qres-opensource\qres\qres.dsw
+Generating project group file C:\Projects\qres-opensource\qres\qres.bpg
+qres.bpg generated
+Done converting workspace file C:\Projects\qres-opensource\qres\qres.dsw
+ Converting ..\qreslib\qreslib.dsp
+Using configuration "qreslib - Win32 Release"
+Warning: no conversion for compiler option: /FR
+Warning: no conversion for compiler option: /FD
+Generating qreslib.bpr

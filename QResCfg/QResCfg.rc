@@ -1,0 +1,345 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,9,7
+ PRODUCTVERSION 1,0,9,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "QRes automates the Windows 95 QuickRes resolution switch applet. Send questions or comments to einhard@pi.net. Homepage http://home.pi.net/~einhard/qres.html\0"
+            VALUE "CompanyName", "Decos Software Engineering bv, Katwijk - Holland\0"
+            VALUE "FileDescription", "QResCfg - QRes configuration wizard\0"
+            VALUE "FileVersion", "1, 0, 9, 7\0"
+            VALUE "InternalName", "QRESCFG\0"
+            VALUE "LegalCopyright", "Copyright © 1998-2005 Berend Engelbrecht\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "QRESCFG.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "QRes\0"
+            VALUE "ProductVersion", "1, 0, 9, 7\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About QResCfg..."
+    IDS_PROPSHT_CAPTION     "Wizard"
+    IDS_STARTMENU           "I want to add QRes to a shortcut in the &Start menu."
+    IDS_DESKTOP             "I want to add QRes to a shortcut on the Windows &Desktop."
+    IDS_NEWLINK             "I want to create a &new shortcut on the Desktop, applying QRes to a program I select."
+    IDS_REM_STARTMENU       "I want to remove QRes from a shortcut in the &Start menu."
+    IDS_REM_DESKTOP         "I want to remove QRes from a shortcut on the Windows &Desktop"
+    IDS_PROMPT2             "First locate the folder or program group in the left pane, then select the program where you want to add qres in the right pane."
+    IDS_PROMPT2_REM         "First locate the folder or program group in the left pane, then select the link from which you want to remove qres in the right pane."
+    IDS_FINISH1             "Press [Finish] to modify the program shortcut. "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FINISH2             "Press [Finish] to create the program shortcut. "
+    IDS_TEST1               "Press [Test] to see the effect of QRes before modifying the shortcut."
+    IDS_TEST2               "Press [Test] to see the effect of QRes before creating the shortcut."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\QResCfg.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\QResCfg.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE1 DIALOG DISCARDABLE  0, 0, 275, 130
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "QRes Configuration Wizard - Select action"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,0,0,89,130
+    GROUPBOX        "",IDC_STATIC,94,43,181,87
+    CONTROL         "I want to add QRes to a shortcut in the Windows &Start Menu.",
+                    IDC_STARTMENU,"Button",BS_AUTORADIOBUTTON | BS_TOP | 
+                    BS_MULTILINE | WS_GROUP | WS_TABSTOP,100,55,172,18
+    CONTROL         "I want to add QRes to a shortcut on the Windows &Desktop.",
+                    IDC_DESKTOP,"Button",BS_AUTORADIOBUTTON | BS_TOP | 
+                    BS_MULTILINE,100,81,172,18
+    CONTROL         "I want to create a &new shortcut on the Desktop, applying QRes to a program I select.",
+                    IDC_NEWLINK,"Button",BS_AUTORADIOBUTTON | BS_TOP | 
+                    BS_MULTILINE,100,107,172,18
+    GROUPBOX        "What do you want to do ?",IDC_STATIC,94,0,181,32
+    CONTROL         "&Add QRes",IDC_ADDQRES,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,100,14,71,10
+    CONTROL         "&Remove QRes",IDC_REMQRES,"Button",BS_AUTORADIOBUTTON,
+                    179,14,71,10
+END
+
+IDD_PROPPAGE3 DIALOG DISCARDABLE  0, 0, 273, 133
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "QRes Configuration Wizard - Select screen mode"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,0,0,96,132
+    LTEXT           "Finally, select what screen mode you want QRes to set for your program. ",
+                    IDC_STATIC,97,0,140,19
+    GROUPBOX        "&Color palette",IDC_STATIC,95,21,178,41
+    COMBOBOX        IDC_COLOR,106,31,87,53,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Do &not change color",IDC_NOCOLOR,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,204,
+                    33,66,26
+    GROUPBOX        "&Desktop area",IDC_STATIC,95,70,178,41
+    LTEXT           "Less",IDC_LESS,99,82,20,10
+    CONTROL         "Slider1",IDC_AREA,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,117,80,55,15
+    LTEXT           "More",IDC_MORE,175,82,25,10
+    CTEXT           "640 by 480 pixels",IDC_AREA_TXT,99,96,95,9
+    CONTROL         "Do &not change desktop &area",IDC_NOAREA,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,204,
+                    82,66,26
+    PUSHBUTTON      "Ad&vanced Settings ...",IDC_ADVANCED,187,118,86,14
+END
+
+IDD_PROPPAGE4 DIALOG DISCARDABLE  0, 0, 274, 130
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "QRes Configuration Wizard - Confirm"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Test",IDC_TEST,243,109,31,18
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,0,0,96,130
+    LTEXT           "You have selected the following options:",IDC_STATIC,97,
+                    0,153,10
+    EDITTEXT        IDC_SUMMARY,97,11,175,69,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_HSCROLL
+    LTEXT           "Press [Finish] to create or update the program shortcut. ",
+                    IDC_FINISH_TXT,97,85,161,17
+    LTEXT           "Press [Test] to see the effect of QRes before modifying the shortcut.",
+                    IDC_TEST_TXT,97,111,131,19
+END
+
+IDD_PROPPAGE2 DIALOG DISCARDABLE  0, 0, 276, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "QRes Configuration Wizard - Select program"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,126,29,146,94,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "First locate the folder or program group in the left pane, then select the program  in the right pane.",
+                    IDC_PROMPT,0,0,256,20
+    GROUPBOX        "",IDC_STATIC,0,20,275,107
+    CONTROL         "Tree1",IDC_DIRTREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    WS_BORDER | WS_TABSTOP,3,29,119,94
+    LISTBOX         IDC_LIST2,102,14,146,91,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ADVANCED DIALOG DISCARDABLE  0, 0, 207, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "QRes Advanced Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,56,89,42,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,89,42,14
+    CONTROL         "&Restore screen mode after program finishes",
+                    IDC_RESTORE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,
+                    177,12
+    COMBOBOX        IDC_REFRESH,108,42,63,43,CBS_DROPDOWNLIST | CBS_SORT | 
+                    NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Screen refresh rate :",IDC_REFRESH_TXT,7,42,94,10,NOT 
+                    WS_VISIBLE
+    CONTROL         "Direct screen mode switch (not using QuickRes)",
+                    IDC_DIRECT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,24,
+                    181,9
+    LTEXT           "QuickRes startup delay :",IDC_WAIT_TXT,7,66,96,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "0 seconds",IDC_WAIT_EDT,108,64,51,12,SS_SUNKEN | NOT 
+                    WS_VISIBLE | WS_BORDER
+    CONTROL         "Spin2",IDC_WAIT_SPIN,"msctls_updown32",UDS_ARROWKEYS | 
+                    NOT WS_VISIBLE,159,64,11,12
+    PUSHBUTTON      "Help",IDHELP,158,89,42,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE3, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_PROPPAGE2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 275
+    END
+
+    IDD_ADVANCED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\SCREEN1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\SETTINGS.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\confirm.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ADVANCED DLGINIT
+BEGIN
+    IDC_REFRESH, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    0
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\QResCfg.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

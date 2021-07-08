@@ -1,0 +1,74 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QResCfg", "..\QResCfg\QResCfg.vcproj", "{316FDFC8-FB7B-4C2D-8C19-9A4779FB16DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CECD316-03EE-403E-B30D-527CF469E6E1} = {5CECD316-03EE-403E-B30D-527CF469E6E1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qres", "qres.vcproj", "{B79B4AA2-B3F9-47B5-93F9-57C6AD4E5CC2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CECD316-03EE-403E-B30D-527CF469E6E1} = {5CECD316-03EE-403E-B30D-527CF469E6E1}
+		{FCE492DE-983A-427B-9503-E7F0563BAC12} = {FCE492DE-983A-427B-9503-E7F0563BAC12}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qres32", "..\qres32\qres32.vcproj", "{FCE492DE-983A-427B-9503-E7F0563BAC12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CECD316-03EE-403E-B30D-527CF469E6E1} = {5CECD316-03EE-403E-B30D-527CF469E6E1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qrescd", "..\qrescd\qrescd.vcproj", "{54B97861-ED98-4B76-BA0D-88214AEC774C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CECD316-03EE-403E-B30D-527CF469E6E1} = {5CECD316-03EE-403E-B30D-527CF469E6E1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qreslib", "..\qreslib\qreslib.vcproj", "{5CECD316-03EE-403E-B30D-527CF469E6E1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qresprop", "..\qresprop\qresprop.vcproj", "{58705109-5419-49CF-BCAF-3B8EAE4D01B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CECD316-03EE-403E-B30D-527CF469E6E1} = {5CECD316-03EE-403E-B30D-527CF469E6E1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = ..\\QResCfg\\QResCfg.vcproj
+		SccProjectName0 = \u0022$/QRES/QResCfg\u0022,\u0020CAAAAAAA
+		SccLocalPath0 = ..\\QResCfg
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{316FDFC8-FB7B-4C2D-8C19-9A4779FB16DC}.Debug.ActiveCfg = Debug|Win32
+		{316FDFC8-FB7B-4C2D-8C19-9A4779FB16DC}.Debug.Build.0 = Debug|Win32
+		{316FDFC8-FB7B-4C2D-8C19-9A4779FB16DC}.Release.ActiveCfg = Release|Win32
+		{316FDFC8-FB7B-4C2D-8C19-9A4779FB16DC}.Release.Build.0 = Release|Win32
+		{B79B4AA2-B3F9-47B5-93F9-57C6AD4E5CC2}.Debug.ActiveCfg = Debug|Win32
+		{B79B4AA2-B3F9-47B5-93F9-57C6AD4E5CC2}.Debug.Build.0 = Debug|Win32
+		{B79B4AA2-B3F9-47B5-93F9-57C6AD4E5CC2}.Release.ActiveCfg = Release|Win32
+		{B79B4AA2-B3F9-47B5-93F9-57C6AD4E5CC2}.Release.Build.0 = Release|Win32
+		{FCE492DE-983A-427B-9503-E7F0563BAC12}.Debug.ActiveCfg = Debug|Win32
+		{FCE492DE-983A-427B-9503-E7F0563BAC12}.Debug.Build.0 = Debug|Win32
+		{FCE492DE-983A-427B-9503-E7F0563BAC12}.Release.ActiveCfg = Release|Win32
+		{FCE492DE-983A-427B-9503-E7F0563BAC12}.Release.Build.0 = Release|Win32
+		{54B97861-ED98-4B76-BA0D-88214AEC774C}.Debug.ActiveCfg = Debug|Win32
+		{54B97861-ED98-4B76-BA0D-88214AEC774C}.Debug.Build.0 = Debug|Win32
+		{54B97861-ED98-4B76-BA0D-88214AEC774C}.Release.ActiveCfg = Release|Win32
+		{54B97861-ED98-4B76-BA0D-88214AEC774C}.Release.Build.0 = Release|Win32
+		{5CECD316-03EE-403E-B30D-527CF469E6E1}.Debug.ActiveCfg = Debug|Win32
+		{5CECD316-03EE-403E-B30D-527CF469E6E1}.Debug.Build.0 = Debug|Win32
+		{5CECD316-03EE-403E-B30D-527CF469E6E1}.Release.ActiveCfg = Release|Win32
+		{5CECD316-03EE-403E-B30D-527CF469E6E1}.Release.Build.0 = Release|Win32
+		{58705109-5419-49CF-BCAF-3B8EAE4D01B3}.Debug.ActiveCfg = Debug|Win32
+		{58705109-5419-49CF-BCAF-3B8EAE4D01B3}.Debug.Build.0 = Debug|Win32
+		{58705109-5419-49CF-BCAF-3B8EAE4D01B3}.Release.ActiveCfg = Release|Win32
+		{58705109-5419-49CF-BCAF-3B8EAE4D01B3}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

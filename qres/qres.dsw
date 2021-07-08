@@ -1,0 +1,107 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "QResCfg"="..\QResCfg\QResCfg.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qreslib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qres"=".\qres.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qres32
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name qreslib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qres32"="..\qres32\qres32.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qreslib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qrescd"="..\qrescd\qrescd.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qreslib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qreslib"="..\qreslib\qreslib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "qresprop"="..\qresprop\qresprop.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qreslib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

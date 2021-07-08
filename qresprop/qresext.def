@@ -1,0 +1,4 @@
+LIBRARY      QRESPROP
+EXPORTS
+    DllCanUnloadNow    PRIVATE
+    DllGetClassObject  PRIVATE

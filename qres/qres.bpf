@@ -1,0 +1,5 @@
+USEUNIT(".\qres.c");
+USERC(".\qres.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain

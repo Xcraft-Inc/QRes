@@ -1,0 +1,20 @@
+// MAKEHELP.BAT generated Help Map file.  Used by QRES1.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_QRESCFG_DIALOG                     0x20066
+HIDD_PROPPAGE1                          0x20068
+HIDD_PROPPAGE2                          0x20069
+HIDD_PROPPAGE3                          0x2006A
+HIDD_PROPPAGE4                          0x2006B
+HIDD_ADVANCED                           0x20092
+ 
+// Frame Controls (IDW_*) 

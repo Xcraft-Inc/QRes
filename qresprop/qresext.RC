@@ -1,0 +1,145 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,9,7
+ PRODUCTVERSION 1,0,9,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "QRes automates the Windows 95 QuickRes resolution switch applet. Send questions or comments to einhard@wxs.nl. Homepage http://www.berend.com/qres.html\0"
+            VALUE "CompanyName", "Decos Software Engineering bv, Katwijk - Holland\0"
+            VALUE "FileDescription", "QRes Property Sheet DLL\0"
+            VALUE "FileVersion", "1, 0, 9, 0\0"
+            VALUE "InternalName", "qresprop\0"
+            VALUE "LegalCopyright", "Copyright © 1998-2005  Berend Engelbrecht\0"
+            VALUE "OriginalFilename", "QRESPROP.DLL\0"
+            VALUE "ProductName", "QRes\0"
+            VALUE "ProductVersion", "1, 0, 9, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_QRESPAGE DIALOG FIXED IMPURE  20, 20, 223, 190
+STYLE DS_MODALFRAME | DS_NOIDLEMSG | DS_3DLOOK | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Enable QRes",IDC_QRES_ON,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,29,45,77,10
+    CONTROL         "&Disable QRes",IDC_QRES_OFF,"Button",BS_AUTORADIOBUTTON,
+                    133,45,77,10
+    GROUPBOX        "&Color palette",IDC_COLORBOX,23,75,178,41
+    COMBOBOX        IDC_COLOR,35,88,87,53,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Do &not change color",IDC_NOCOLOR,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,133,
+                    88,66,26
+    GROUPBOX        "Desktop &area",IDC_AREABOX,23,123,178,41
+    LTEXT           "Less",IDC_LESS,27,136,20,10
+    CONTROL         "Slider1",IDC_AREA,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,45,134,55,15
+    LTEXT           "More",IDC_MORE,103,136,25,10
+    CONTROL         "Do n&ot change desktop area",IDC_NOAREA,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP,133,
+                    136,66,26
+    CTEXT           "640 by 480 pixels",IDC_AREA_TXT,27,150,95,9
+    CONTROL         "&Restore screen mode after program finishes",
+                    IDC_RESTORE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,178,
+                    156,12
+    ICON            "",IDC_STDICON,7,7,18,20
+    EDITTEXT        IDC_STDTXT,48,11,172,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "",13095,"Static",SS_ETCHEDHORZ,7,32,213,1
+    CONTROL         "",13096,"Static",SS_ETCHEDHORZ,7,66,212,1
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

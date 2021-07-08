@@ -1,0 +1,10 @@
+USEUNIT(".\colormode.cpp");
+USEUNIT(".\qresext.cpp");
+USEUNIT(".\qresprop.cpp");
+USEUNIT(".\qrxtinit.cpp");
+USEUNIT(".\Shortcut.cpp");
+USERC(".\qresext.RC");
+USEDEF(".\qresext.def");
+USEFILE("vctobpr.log");
+
+#define DllEntryPoint

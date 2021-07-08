@@ -1,0 +1,42 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe
+BPRTOMAK = $(ROOT)\bin\bprtomak.exe
+DCC = $(ROOT)\bin\dcc32.exe
+BRCC = $(ROOT)\bin\brcc32.exe
+#------------------------------------------------------------------------------
+PROJECTS = qreslib.dsp qres32.dsp qresprop.dsp QResCfg.dsp qres.dsp qrescd.dsp
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+QResCfg.dsp: ..\QResCfg\QResCfg.bpr
+   $(BPRTOMAK) QResCfg.bpr
+   $(MAKE) -$(MAKEFLAGS) -fQResCfg.mak
+
+qres.dsp: qres.bpr
+   $(BPRTOMAK) qres.bpr
+   $(MAKE) -$(MAKEFLAGS) -fqres.mak
+
+qres32.dsp: ..\qres32\qres32.bpr
+   $(BPRTOMAK) qres32.bpr
+   $(MAKE) -$(MAKEFLAGS) -fqres32.mak
+
+qrescd.dsp: ..\qrescd\qrescd.bpr
+   $(BPRTOMAK) qrescd.bpr
+   $(MAKE) -$(MAKEFLAGS) -fqrescd.mak
+
+qreslib.dsp: ..\qreslib\qreslib.bpr
+   $(BPRTOMAK) qreslib.bpr
+   $(MAKE) -$(MAKEFLAGS) -fqreslib.mak
+
+qresprop.dsp: ..\qresprop\qresprop.bpr
+   $(BPRTOMAK) qresprop.bpr
+   $(MAKE) -$(MAKEFLAGS) -fqresprop.mak
+
+

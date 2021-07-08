@@ -1,0 +1,11 @@
+Reading configurations from ..\qrescd\qrescd.dsp
+Finished reading configurations from ..\qrescd\qrescd.dsp
+ Converting C:\Projects\qres-opensource\qres\qres.dsw
+Generating project group file C:\Projects\qres-opensource\qres\qres.bpg
+qres.bpg generated
+Done converting workspace file C:\Projects\qres-opensource\qres\qres.dsw
+ Converting ..\qrescd\qrescd.dsp
+Using configuration "qrescd - Win32 Release"
+Warning: no conversion for compiler option: /FD
+Warning: skipping unknown linker option: /IGNORE:4089
+Generating qrescd.bpr

@@ -1,0 +1,5 @@
+USEUNIT(".\qreslib.c");
+USEUNIT(".\qreslib2.c");
+USEFILE("vctobpr.log");
+
+#define Library

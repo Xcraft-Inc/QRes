@@ -1,0 +1,14 @@
+Reading configurations from ..\qresprop\qresprop.dsp
+Finished reading configurations from ..\qresprop\qresprop.dsp
+ Converting C:\Projects\qres-opensource\qres\qres.dsw
+Generating project group file C:\Projects\qres-opensource\qres\qres.bpg
+qres.bpg generated
+Done converting workspace file C:\Projects\qres-opensource\qres\qres.dsw
+ Converting ..\qresprop\qresprop.dsp
+Using configuration "qresprop - Win32 Release"
+Warning: no conversion for compiler option: /FR
+Warning: no conversion for compiler option: /FD
+Warning: no conversion for linker option: /PDB:NONE
+Warning: no conversion for linker option: /NODEFAULTLIB:"LIBC"
+Warning: skipping unknown linker option: /IGNORE:4089
+Generating qresprop.bpr

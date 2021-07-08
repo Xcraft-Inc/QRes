@@ -1,0 +1,6 @@
+USEUNIT(".\qres32.c");
+USERES(".\Qres32.res");
+USEDEF(".\qres32.def");
+USEFILE("vctobpr.log");
+
+#define DllEntryPoint

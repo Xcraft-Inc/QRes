@@ -1,0 +1,14 @@
+USEUNIT(".\AdvDlg.cpp");
+USEUNIT(".\colormode.cpp");
+USEUNIT(".\QResCfg.cpp");
+USEUNIT(".\QResPropertyPage1.cpp");
+USEUNIT(".\QResPropertyPage2.cpp");
+USEUNIT(".\QResPropertyPage3.cpp");
+USEUNIT(".\QResPropertyPage4.cpp");
+USEUNIT(".\QResPropertySheet.cpp");
+USEUNIT(".\Shortcut.cpp");
+USEUNIT(".\StdAfx.cpp");
+USERC(".\QResCfg.rc");
+USEFILE("vctobpr.log");
+
+#define WinMain
